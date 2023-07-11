@@ -521,7 +521,7 @@ Berikut adalah link source codenya:
 - https://github.com/Pancadrya/Praktikum-PBO/tree/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/crud-admin-disney-plus-clone/src
 
 # No. 7
-GUI aplikasi Disney+ Clone ini menggunakan framework ReactJS dengan tambahan library react, firebase, styled-components, slick-carousel, bootstrap, redux, dan router-dom. Di sini, user dapat melakukan berbgaai kegiatan seperti dijelaskan di bawah ini:
+GUI aplikasi Disney+ Clone ini dibuat menggunakan ReactJS dengan bantuan library react, firebase, styled-components, slick-carousel, bootstrap, redux, dan router-dom. Di sini, user dapat melakukan berbgaai kegiatan seperti dijelaskan di bawah ini:
 
 ![image](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/5a1c73cd-0c4a-4046-83fc-b96296aefd79)
 
