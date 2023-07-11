@@ -471,6 +471,8 @@ Interface Segregation Principle - Satu interface Tidak boleh menyediakan semua s
 
 Dependency inversion Principle - Modul level tinggi tidak bergantung pada modul level rendah. Keduanya bergantung pada abstraksi. Sementara abstraksi tidak bergantung kepada detail. Malah detail yang harus bergantung pada abstraksi. Hal ini juga tergambar pada gambar-gambar sebelumnya, yaitu modul untuk movie ya menggunakan class Movie yang merupakan class yang lebih rendah dari Video. Movie dan Series tergantung pada Video, tidak sebaliknya.
 
+Berikut ini adalah link source codenya: https://github.com/Pancadrya/Praktikum-PBO/tree/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/disney-plus-clone-ts/src/model
+
 # No. 4
 Project Disney+ Clone ini menggunakan design pattern MVC (Model, View, Controller). Pattern ini digunakan dengan memisahkan antara kode untuk struktur (Model), kode untuk tampilan (View), dan kode untuk Logika (Controller). Dapat dilihat pada gambar dibawah terdapat folder components yang menampung file-file tampilan, folder Controllers yang berisi logika, dan folder model yang berisi class-class dan abstract yang menjadi rujukan struktur kode aplikasi. Penggunaan nama components (bukan view) karena digunakannya reactJS yang memfasilitasi pembuatan UI berbasis komponen. cContoh praktiknya dapat dilihat ketika di komponen Detail tidak ada logic yang diperlukan untuk mengampil data dari api, semua itu dilakukan pada FetchData di controllers. Meskipun tidak 100% rapi implementasi design patternnya, tetapi sudah cukup mewakili penggunaan dari design pattern pada program aplikasi.
 
@@ -483,6 +485,8 @@ Project Disney+ Clone ini menggunakan design pattern MVC (Model, View, Controlle
 ![DB (1)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/a7c4e920-0e95-4d2a-ab10-d4f4df3298d5)
 
 ![DB (2)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/33d97084-4d94-40be-9373-4fd0d2a65294)
+
+Berikut ini adalah link source codenya: https://github.com/Pancadrya/Praktikum-PBO/tree/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/disney-plus-clone-ts/src
 
 # No. 5
 Database yang digunakan pada project ini adalah Firebase Cloud Firestore yang merupakan salah satu database noSQL. Koneksi antara database dengan aplikasi ditengahi oleh API/Web Service. Dapat dilihat pada gambar-gambar di bawah, API terhubung dengan database dengan secret key sehingga dapat menarik data collection, doc, beserta properti-propertinya. API dibuat menggunakan NodeJS, ExpressJS, Cors, dan Javascript. API merumuskan operasi CRUD dengan dibagi menjadi beberapa endpoint (routes). Pada aplikasi utama, endpoint dari API itu lah yang digunakan untuk menarik data dari database.
@@ -497,6 +501,10 @@ Database yang digunakan pada project ini adalah Firebase Cloud Firestore yang me
 
 ![DB (2)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/33d97084-4d94-40be-9373-4fd0d2a65294)
 
+Berikut adalah link source codenya:
+- https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/web-service-disney-plus-clone/functions/index.js
+- https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/disney-plus-clone-ts/src/controllers/FetchData.tsx
+
 # No. 6
 Masih berhubungan dengan soal sebelumnya (lihat gambar-gambar pada nomor 5), Web Service (API) pada project ini dibuat menggunakan NodeJs, ExpressJS, Cors, Firebase Admin, Firebase Functions, dan Javascript. Web service dihubungkan dengan database melalui inisiasi serviceAccountKey. Dengan terhubungnya Web Service dengan database, dibuatlah fungsi-fungsi untuk melakukan CRUD, seperti getMovie, getAllMovie, dan lain-lain. Setelah itu digunakanlah express dan cors untuk menyediakan endpoint atau routes bagi aplikasi client untuk merequest dan mendapatkan response data melalui http connection.
 
@@ -507,6 +515,10 @@ Belum semua fungsi dioptimalkan, masih ada yang belum dibuat ataupun meragukan. 
 ![CM (2)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/c6402719-9168-4149-975b-950739d0559d)
 
 ![CM (3)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/201febe3-20e9-4838-a79f-e74e6cbd55e3)
+
+Berikut adalah link source codenya:
+- https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/web-service-disney-plus-clone/functions/index.js
+- https://github.com/Pancadrya/Praktikum-PBO/tree/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/crud-admin-disney-plus-clone/src
 
 # No. 7
 GUI aplikasi Disney+ Clone ini menggunakan framework ReactJS dengan tambahan library react, firebase, styled-components, slick-carousel, bootstrap, redux, dan router-dom. Di sini, user dapat melakukan berbgaai kegiatan seperti dijelaskan di bawah ini:
@@ -529,6 +541,8 @@ Pada laman detail ini ditampilkan berbagai informasi mengenai film atau series y
 
 Hingga saat ini, tombol yang berfungsi baru PLAY dan TRAILER, sisanya belum terimplementasi. Pemutaran video sendiri baru sebatas mengarahkan user atau memunculkan layanan pihak luar. Berbagai hal yang belum berfungsi pada saat ini mungkin baru akan ditambahkan pada pengembangan selanjutnya.
 
+Berikut adalah link source codenya: https://github.com/Pancadrya/Praktikum-PBO/tree/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/disney-plus-clone-ts
+
 # No. 8
 Pada project ini, HTTP connection diimplementasikan pada bagian pendefinisian rute-rute HTTP menggunakan Express.js. Pada setiap definisi rute HTTP connection, di sana digunakan metode-metode HTTP seperti get, post, put, dan delete untuk menangani permintaan HTTP yang datang ke endpoint yang sesuai. Misalnya, app.get("/api/movies/:id", ...) akan menangani permintaan HTTP GET ke endpoint /api/movies/:id.
 
@@ -537,6 +551,8 @@ Selain itu, HTTP connection ini juga memungkinkan adanya pengiriman respons HTTP
 Berikut adalah bagian-bagian yang menggunakan HTTP connection dalam kode tersebut:
 
 ![API (3)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/466e494b-c634-40ea-b479-89645480eeca)
+
+Berikut adalah link source codenya: https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/web-service-disney-plus-clone/functions/index.js
 
 # No. 9
 
