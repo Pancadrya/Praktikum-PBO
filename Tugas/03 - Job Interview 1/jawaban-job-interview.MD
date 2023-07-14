@@ -1,4 +1,5 @@
 # No. 1
+Tidak ada nama algoritma khusus yang digunakan dalam membuat project Disney+ Clone Java ini, tetapi terdapat beberapa algoritma umum seperti perulangan dan percabangan. Berikut adalah link source codenya:
 https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/02%20-%20Project%20Disney%2B%20Clone/Operation.java
 
 ![CodeRevisi1](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/773c2b8a-8e3b-4694-aa2b-460748ef34cf)
@@ -10,6 +11,7 @@ https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/02%20-%20Project%20Di
 ![CodeRevisi7](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/86ea3644-4086-4193-9813-88742d19b3e0)
 
 # No. 2
+Secara keseluruhan, project ini memiliki alur, inisialiasi movie dan series dengan membuat satu class khusus untuk menampung. Kemudian data-data tersebut dimasukkan ke dalam suatu arraylist untuk nantinya digunakan pada bagian tampilan. Selain itu, ada juga bagian user yang berkaitan tentang akun pengguna. Di sana berisi semua logika operasi dan penyimpanan data user, seperti login, sign in, dan lain-lain. Di bagian tampilan, terdapat banyak perintah operasi juga, mulai dari menampilkan menu, memilih film, login, logout, dan lain-lain. Pengguna yang sudah memiliki akun dan login saja yang bisa melihat secara lengkap konten yang ada. Berikut adalah link source codenya:
 https://github.com/Pancadrya/Praktikum-PBO/tree/main/Tugas/02%20-%20Project%20Disney+%20Clone
 
 # No. 3
@@ -20,16 +22,19 @@ Object Oriented Programming (OOP) adalah paradigma pemrograman yang berorientasi
 - Polymorphism adalah konsep dimana subclass dapat memiliki perilaku yang berbeda meskipun memiliki method yang sama dengan superclassnya. Misalnya dalam dunia nyata, hewan memiliki suara, tapi masing-masing suara mereka memiliki ciri khas masing-masing.
 
 # No. 4
+Pada project ini, encapsulation dicontohkan dengan class user. Di sana semua atribut variabel dibuat private agar tidak bisa dipanggil dan dibuah langsung dari luar kelas. Konsekuensinya, dibuatlah method-method public yang berfungsi memanggil nilai-nilai yang ada pada class ini dengan filter logic yang tidambahkan (seharusnya), seperti siapa yang bisa mengakses nama user, password user dan lain-lain, sehingga meminimalisir kerentanan kode terhadap akses yang tidak diinginkan Berikut adalah source codenya: 
 https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/02%20-%20Project%20Disney%2B%20Clone/User.java
 
 ![code 8 encapsulation](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/c73bfaa2-6d74-48da-92ae-d581856ad263)
 
 # No. 5
+Abstraction di sini bernama Video. Alasannya karena semua konten yang ada pada Disney+ menurut pengamatan penulis pribadi berjenis video. Ini memberikan kerangka bagi programmer untuk menyesuaikan bahwa semua video pasti mempunyai nama dan durasi, selebihnya mungkin ada perbedaan dalam tahap khusus. Berikut adalah source codenya:
 https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/02%20-%20Project%20Disney%2B%20Clone/Video.java
 
 ![code 9 abstraction](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/bba7e082-e0c4-4fad-a62a-0c97805abfd6)
 
 # No. 6
+Seperti diketahui bersama, movie dan series itu sama-sama video. Bedanya, movie hanya terdiri dari satu babak atau video, sedangkan series memiliki jumlah season dan episode yang berbeda-beda sehingga diperlukan polymorphism dalam menampilkan keduanya Berikut adalah source codenya:
 https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/02%20-%20Project%20Disney%2B%20Clone/Video.java
 
 ![code 10 inheritence](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/6ba1c493-bdd8-4961-ad69-ff403892d5ae)
@@ -59,6 +64,8 @@ Belum terimplementasi
 
 Dari list proses bisnis yang kemungkinan ada, pemrogram akan menganalisis apa saja kemungkinan class yang akan dibuat, apa saja atributnya, apa saja methodnya, bagaimana perilaku programnya, dan lain-lain.
 
+Catatan: untuk update dapat dilihat pada jawaban interview 2
+
 # No. 8
 Class Diagram
 
@@ -67,6 +74,8 @@ Class Diagram
 Use Case Table
 
 ![image](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/58e01979-e99d-410d-8510-ac5cfdda78a8)
+
+Catatan: untuk update dapat dilihat pada jawaban interview 2
 
 # No. 9
 https://youtu.be/GoPL8HgeJE0
