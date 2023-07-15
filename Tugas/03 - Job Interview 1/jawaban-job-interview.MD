@@ -22,7 +22,7 @@ Object Oriented Programming (OOP) adalah paradigma pemrograman yang berorientasi
 - Polymorphism adalah konsep dimana subclass dapat memiliki perilaku yang berbeda meskipun memiliki method yang sama dengan superclassnya. Misalnya dalam dunia nyata, hewan memiliki suara, tapi masing-masing suara mereka memiliki ciri khas masing-masing.
 
 # No. 4
-Pada project ini, encapsulation dicontohkan dengan class user. Di sana semua atribut variabel dibuat private agar tidak bisa dipanggil dan dibuah langsung dari luar kelas. Konsekuensinya, dibuatlah method-method public yang berfungsi memanggil nilai-nilai yang ada pada class ini dengan filter logic yang tidambahkan (seharusnya), seperti siapa yang bisa mengakses nama user, password user dan lain-lain, sehingga meminimalisir kerentanan kode terhadap akses yang tidak diinginkan Berikut adalah source codenya: 
+Pada project ini, encapsulation dicontohkan dengan class user. Di sana semua atribut variabel dibuat private agar tidak bisa dipanggil dan dibuah langsung dari luar kelas. Konsekuensinya, dibuatlah method-method public yang berfungsi memanggil nilai-nilai yang ada pada class ini dengan filter logic yang ditambahkan (idealnya), seperti siapa yang bisa mengakses nama user, password user dan lain-lain, sehingga meminimalisir kerentanan kode terhadap akses yang tidak diinginkan Berikut adalah source codenya: 
 https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/02%20-%20Project%20Disney%2B%20Clone/User.java
 
 ![code 8 encapsulation](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/c73bfaa2-6d74-48da-92ae-d581856ad263)
