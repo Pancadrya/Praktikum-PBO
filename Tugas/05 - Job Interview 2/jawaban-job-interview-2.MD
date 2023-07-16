@@ -478,9 +478,15 @@ Project Disney+ Clone ini menggunakan design pattern MVC (Model, View, Controlle
 
 ![image](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/22fd447e-8ab5-4f1d-a079-a0002cab20a7)
 
+Contoh Bagian Model
+
 ![M in MVC](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/7bb07acd-cecb-43f9-a0a3-11dbbfa87af4)
 
+Contoh Bagian View
+
 ![V in MVC (!)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/875e04e5-7a2b-42e7-97c2-682760f683c9)
+
+Contoh Bagian Controller
 
 ![DB (1)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/a7c4e920-0e95-4d2a-ab10-d4f4df3298d5)
 
