@@ -455,7 +455,7 @@ classDiagram
 ```
 
 # No. 3
-Single Responsibility Principle - Setiap class hanya punya satu tugas. Sehingga kelas itu cuman punya satu alasan untuk berubah,yakni merubah satu tugas yang diberikan padanya. Gambar di bawah menunjukkan bahwasannya class Episode hanya akan berubah untuk merubah struktur episode dari series yang ada saja.
+Single Responsibility Principle - Setiap class hanya punya satu tugas. Sehingga kelas itu cuman punya satu alasan untuk berubah, yakni merubah satu tugas yang diberikan padanya. Gambar di bawah menunjukkan bahwasannya class Episode hanya akan berubah untuk merubah struktur episode dari series yang ada saja.
 
 ![S in SOLID](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/d3d31342-1739-4705-89da-5de9d1de1f6c)
 
@@ -467,7 +467,7 @@ Liskov Substitute Principle - Class turunan harus bisa menjadi pegganti class pa
 
 ![L in SOLID](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/297c54ed-ed51-452a-9a3a-040de4a9cd2a)
 
-Interface Segregation Principle - Satu interface Tidak boleh menyediakan semua service (god class) bagi semua jenis client objek. Satu interface mempunyai tugas spesifik untuk tiap klien-nya. Prinsip I pada SOLID ini dapat terlihat juga dari gambar sebelumnya. Interface atau abstract class video ya khusus untuk video, dan abstract yang lainnya terpisah. Tidak menjadi datu abstract yang sangat umum.
+Interface Segregation Principle - Satu interface Tidak boleh menyediakan semua service (god class) bagi semua jenis client objek. Satu interface mempunyai tugas spesifik untuk tiap klien-nya. Prinsip I pada SOLID ini dapat terlihat juga dari gambar sebelumnya. Interface atau abstract class video ya khusus untuk video, dan abstract yang lainnya terpisah. Tidak menjadi satu abstract yang sangat umum.
 
 Dependency inversion Principle - Modul level tinggi tidak bergantung pada modul level rendah. Keduanya bergantung pada abstraksi. Sementara abstraksi tidak bergantung kepada detail. Malah detail yang harus bergantung pada abstraksi. Hal ini juga tergambar pada gambar-gambar sebelumnya, yaitu modul untuk movie ya menggunakan class Movie yang merupakan class yang lebih rendah dari Video. Movie dan Series tergantung pada Video, tidak sebaliknya.
 
