@@ -570,4 +570,5 @@ Video demonstrasi atau presentasi dari aplikasi Disney+ Clone ini tersedia pada 
 # No. 10
 -
 
-# Catatan Penting: Belum semua fungsi yang ada ditampilan berjalan. Selain itu, pada bagian source code terdapat beberapa file kode yang tidak terpakai secara fungsional dan juga beberapa perintah yang dicomment dan belum dihapus. Hal tersebut dikarenakan project ini dibuat dengan berbagai eksperimen penggunaan kode dalam waktu yang relatif singkat sehingga kode-kode dan file-file yang pernah diuji belum terarsip dengan baik dan dihapuskan saat ini.
+# Catatan Penting
+Belum semua fungsi yang ada ditampilan berjalan. Selain itu, pada bagian source code terdapat beberapa file kode yang tidak terpakai secara fungsional dan juga beberapa perintah yang dicomment dan belum dihapus. Hal tersebut dikarenakan project ini dibuat dengan berbagai eksperimen penggunaan kode dalam waktu yang relatif singkat sehingga kode-kode dan file-file yang pernah diuji belum terarsip dengan baik dan dihapuskan saat ini.
