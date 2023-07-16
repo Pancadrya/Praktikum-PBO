@@ -497,11 +497,15 @@ Berikut ini adalah link source codenya: https://github.com/Pancadrya/Praktikum-P
 # No. 5
 Database yang digunakan pada project ini adalah Firebase Cloud Firestore yang merupakan salah satu database noSQL. Koneksi antara database dengan aplikasi ditengahi oleh API/Web Service. Dapat dilihat pada gambar-gambar di bawah, API terhubung dengan database dengan secret key sehingga dapat menarik data collection, doc, beserta properti-propertinya. API dibuat menggunakan NodeJS, ExpressJS, Cors, dan Javascript. API merumuskan operasi CRUD dengan dibagi menjadi beberapa endpoint (routes). Pada aplikasi utama, endpoint dari API itu lah yang digunakan untuk menarik data dari database.
 
+Aplikasi atau Program Web Service/API
+
 ![API (1)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/5f17cd67-defc-412f-abd0-49a3e3a5afd1)
 
 ![API (2)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/557ff960-945c-4cbf-8301-f4b8c3317ad3)
 
 ![API (3)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/466e494b-c634-40ea-b479-89645480eeca)
+
+Aplikasi Utama Bagian Fetch Data
 
 ![DB (1)](https://github.com/Pancadrya/Praktikum-PBO/assets/94888050/a7c4e920-0e95-4d2a-ab10-d4f4df3298d5)
 
@@ -512,7 +516,7 @@ Berikut adalah link source codenya:
 - https://github.com/Pancadrya/Praktikum-PBO/blob/main/Tugas/04%20-%20Project%20Disney%2B%20Clone%20TS/disney-plus-clone-ts/src/controllers/FetchData.tsx
 
 # No. 6
-Masih berhubungan dengan soal sebelumnya (lihat gambar-gambar pada nomor 5), Web Service (API) pada project ini dibuat menggunakan NodeJs, ExpressJS, Cors, Firebase Admin, Firebase Functions, dan Javascript. Web service dihubungkan dengan database melalui inisiasi serviceAccountKey. Dengan terhubungnya Web Service dengan database, dibuatlah fungsi-fungsi untuk melakukan CRUD, seperti getMovie, getAllMovie, dan lain-lain. Setelah itu digunakanlah express dan cors untuk menyediakan endpoint atau routes bagi aplikasi client untuk merequest dan mendapatkan response data melalui http connection.
+Masih berhubungan dengan soal sebelumnya (lihat gambar-gambar pada nomor 5), Web Service (API) pada project ini dibuat menggunakan NodeJs, ExpressJS, Cors, Firebase Admin, Firebase Functions, dan Javascript. Web service dihubungkan dengan database melalui pengakomodiran serviceAccountKey. Dengan terhubungnya Web Service dengan database, dibuatlah fungsi-fungsi untuk melakukan CRUD, seperti getMovie, getAllMovie, dan lain-lain. Setelah itu digunakanlah express dan cors untuk menyediakan endpoint atau routes bagi aplikasi client untuk merequest dan mendapatkan response data melalui http connection.
 
 Belum semua fungsi dioptimalkan, masih ada yang belum dibuat ataupun meragukan. Tetapi untuk movie/film, semua CRUD sudah berjalan cukup baik. Dibuat juga aplikasi khusus untuk Content Management, dimana pihak manajemen aplikasi dapat menambahkan, melihat, meng-update, menghapus data film dari aplikasi tersebut.
 
@@ -565,3 +569,5 @@ Video demonstrasi atau presentasi dari aplikasi Disney+ Clone ini tersedia pada 
 
 # No. 10
 -
+
+# Catatan Penting: Belum semua fungsi yang ada ditampilan berjalan. Selain itu, pada bagian source code terdapat beberapa file kode yang tidak terpakai secara fungsional dan juga beberapa perintah yang dicomment dan belum dihapus. Hal tersebut dikarenakan project ini dibuat dengan berbagai eksperimen penggunaan kode dalam waktu yang relatif singkat sehingga kode-kode dan file-file yang pernah diuji belum terarsip dengan baik dan dihapuskan saat ini.
